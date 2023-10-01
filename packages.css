@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}.navbar{
+    background-color: #ff9;
+    color: black;
+    text-decoration: none;
+}
+#brand{
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+}
+#brand>span{
+    color: orange;
+}
+#navbtn:hover{
+     color: #ff9;
+}
+
+.nav-link{
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+}
+.nav-link::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -2px;
+    height: 5px;
+     width: 0;
+     background-color: orange;
+    transition: 0.5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.banner{
+    background-image: url(./package1mg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    padding: 10% 0 0 5%;
+    color: #fff;
+    font-weight: 600;
+
+}
+.ph1{
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+#info{
+    background-color: rgb(142, 216, 250);
+    color: darkblue;
+}
+.pacimg{
+    width: 400px;
+    border-radius: 25px;
+}
+.pacimgage{
+    width: 325px;
+    overflow: hidden;
+   
+}
+.card{
+    overflow: hidden;
+}
+.card-img-top{
+   cursor: pointer;
+    transition: 0.5s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+#h1{
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+#h1 span{
+    color: orange;
+
+}
+
+.p-5{
+    background-image: url(./packesan\ act.jpg);
+    background-position:  center;
+    background-size: cover;
+    color: #fff;
+    padding: 3%;
+}
+#fbtn{
+    color: #fff;
+    width: 120px;
+}
+.footer{
+    text-align: center;
+}
+.footer .d-flex .fa-brands{
+    
+    font-size: 30px;
+}
+.spon{
+    width: 200px;
+}
